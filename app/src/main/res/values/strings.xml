@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">Pokédex</string>
+    <string name="home_subtitle">Explore os Pokémons da sua Pokédex</string>
+    <string name="pokemon_sprite">Imagem do Pokémon</string>
+    <string name="pokemon_number">Nº %03d</string>
+
+    <string name="description_card_header">Descrição</string>
+    <string name="training_card_header">Treinamento</string>
+    <string name="details">Detalhes</string>
+
+    <string name="level">Nv. %1$d</string>
+    <string name="experience">XP %1$d / %2$d</string>
+    <string name="experience_max">Nível máximo</string>
+    <string name="train_action">Treinar</string>
+    <string name="rare_candy_action">Doce raro</string>
+    <string name="experience_gained">+%1$d XP</string>
+    <string name="level_up_message">%1$s subiu para o nível %2$d!</string>
+    <string name="max_level_message">%1$s já está no nível máximo</string>
+
+    <string name="evolution_hint">Evolui para %1$s no nível %2$d</string>
+    <string name="evolution_other_way">Evolui para %1$s de outro jeito, não por nível</string>
+    <string name="evolution_missing">Pronto para evoluir em %1$s, mas ele ainda não está na sua Pokédex</string>
+    <string name="evolution_final">Este é o último estágio de evolução</string>
+    <string name="evolve_action">Evoluir para %1$s</string>
+    <string name="evolved_message">%1$s evoluiu para %2$s!</string>
+
+    <string name="stats_header">Status</string>
+    <string name="stat_hp">HP</string>
+    <string name="stat_attack">Ataque</string>
+    <string name="stat_defense">Defesa</string>
+    <string name="stat_speed">Velocidade</string>
+
+    <string name="register_action">Registrar na Pokédex</string>
+    <string name="unregister_action">Remover do registro</string>
+    <string name="registered_status">Registrado na Pokédex</string>
+    <string name="unregistered_status">Ainda não registrado</string>
+
+    <string name="category">Categoria</string>
+    <string name="height">Altura</string>
+    <string name="weight">Peso</string>
+    <string name="ability">Habilidade</string>
+    <string name="hidden_ability">Habilidade oculta</string>
+    <string name="weaknesses">Fraquezas</string>
+    <string name="evolves_to">Evolui para</string>
+
+    <string name="height_format">%1$.1f m</string>
+    <string name="weight_format">%1$.1f kg</string>
+    <string name="not_available">—</string>
+    <string name="pokemon_not_found">Pokémon não encontrado</string>
+</resources>

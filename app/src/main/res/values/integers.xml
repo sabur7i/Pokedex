@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Valor que enche a barra de um status (Snorlax nível 100 tem 430 de HP) -->
+    <integer name="stat_bar_max">450</integer>
+</resources>

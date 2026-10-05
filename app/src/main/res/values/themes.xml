@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Pokedex" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="fontFamily">@font/syne</item>
+        <!-- Fundo vermelho: o "corpo" da Pokédex -->
+        <item name="android:colorBackground">@color/pokedex_red</item>
+        <item name="colorSurface">#1E1E1E</item>
+        <item name="colorOnBackground">#FFFFFF</item>
+        <item name="colorOnSurface">#E1E1E1</item>
+        <item name="colorPrimary">#EF5350</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Botões de nível (FAB) no vermelho da Pokédex em vez do roxo padrão do Material -->
+        <item name="colorPrimaryContainer">@color/pokedex_red</item>
+        <item name="colorOnPrimaryContainer">@color/white</item>
+    </style>
+
+    <style name="Theme.Pokedex" parent="Base.Theme.Pokedex" />
+</resources>

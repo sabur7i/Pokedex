@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Cores do "aparelho" Pokédex -->
+    <color name="pokedex_red">#DC0A2D</color>
+    <color name="pokedex_red_dark">#8B0A1F</color>
+    <color name="pokedex_bezel">#DEDEDE</color>
+    <color name="pokedex_screen">#1B1B1B</color>
+    <color name="pokedex_speaker">#9E9E9E</color>
+    <color name="led_red">#FF4D4D</color>
+    <color name="led_yellow">#FFD93B</color>
+    <color name="led_green">#4CD964</color>
+    <color name="badge_text">#1B1B1B</color>
+
+    <!-- Cores dos badges de acordo com o tipo (e as fraquezas) do Pokémon -->
+    <color name="type_fire">#FF8A50</color>
+    <color name="type_water">#5AA9E6</color>
+    <color name="type_grass">#6FCF97</color>
+    <color name="type_electric">#F2C94C</color>
+    <color name="type_poison">#B473D8</color>
+    <color name="type_dragon">#7B8CFF</color>
+    <color name="type_psychic">#F178A8</color>
+    <color name="type_ghost">#9A7BC8</color>
+    <color name="type_flying">#9DB7F5</color>
+    <color name="type_ice">#98D8D8</color>
+    <color name="type_rock">#C8B560</color>
+    <color name="type_ground">#E0C068</color>
+    <color name="type_fairy">#F4A8C8</color>
+    <color name="type_fighting">#E07A5F</color>
+    <color name="type_bug">#A8B820</color>
+    <color name="type_dark">#A29288</color>
+    <color name="type_normal">#BDBDBD</color>
+</resources>

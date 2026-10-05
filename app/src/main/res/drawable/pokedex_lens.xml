@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Lente azul grande do topo da Pokédex: aro branco, vidro azul e um reflexo-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+    <item
+        android:bottom="5dp"
+        android:left="5dp"
+        android:right="5dp"
+        android:top="5dp">
+        <shape android:shape="oval">
+            <gradient
+                android:centerX="0.35"
+                android:centerY="0.35"
+                android:endColor="#1E6FD9"
+                android:gradientRadius="40dp"
+                android:startColor="#8FD3FF"
+                android:type="radial" />
+            <stroke
+                android:width="2dp"
+                android:color="#0E3F7A" />
+        </shape>
+    </item>
+    <item
+        android:width="14dp"
+        android:height="14dp"
+        android:gravity="top|start"
+        android:left="16dp"
+        android:top="16dp">
+        <shape android:shape="oval">
+            <solid android:color="#CCFFFFFF" />
+        </shape>
+    </item>
+</layer-list>

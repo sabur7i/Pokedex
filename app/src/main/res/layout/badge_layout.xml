@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--A cor de fundo é aplicada no código, de acordo com o tipo (tintByType)-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="6dp"
+    android:background="@drawable/badge_shape"
+    android:orientation="vertical"
+    android:paddingHorizontal="12dp"
+    android:paddingVertical="4dp">
+
+    <TextView
+        android:id="@+id/badgeText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/jetbrains_mono"
+        android:textAllCaps="true"
+        android:textColor="@color/badge_text"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+</LinearLayout>
