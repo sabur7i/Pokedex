@@ -66,8 +66,7 @@ app/src/main/res/layout/
 
 ## Observação sobre as imagens
 
-As imagens dos Pokémon são representadas por um ícone vetorial genérico
-(`res/drawable/sprite_placeholder.xml`) colorido de acordo com o tipo principal de cada Pokémon,
-evitando o uso de artes oficiais protegidas por direitos autorais. Para usar imagens próprias,
-basta adicionar os arquivos em `res/drawable` e trocar o `android:src` das `ImageView`
-(`home_list_item_layout.xml` e `activity_pokemon_detail.xml`).
+As imagens dos Pokémon ficam em `res/drawable-nodpi/` (arquivos `pokemon_<nome>.webp`). Cada
+Pokémon dos mocks em `Pokemon.kt` aponta para a sua imagem pelo campo `imageRes`, e as duas telas
+a exibem com `setImageResource(pokemon.imageRes)`. Para adicionar ou trocar uma imagem, basta
+colocar o arquivo nessa pasta e referenciá-lo no `imageRes` do Pokémon correspondente.

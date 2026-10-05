@@ -66,7 +66,7 @@
                     android:clipToOutline="true"
                     android:contentDescription="@string/pokemon_sprite"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/sprite_placeholder" />
+                    tools:src="@drawable/pokemon_bulbasaur" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
